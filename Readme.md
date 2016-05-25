@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Maxim Borisov](https://up.htmlacademy.ru/adaptive/7/user/74180).
-* Наставник: `Неизвестно`.
+* Наставник: `Макс Пушкарев`(https://htmlacademy.ru/profile/id87167).
 
 ---
 
