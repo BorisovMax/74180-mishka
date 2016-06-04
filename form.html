@@ -6,23 +6,24 @@
 </head>
 <body>
 	<header class="page-header">
-    <div class="page-header__logo">
-      <a href="index.html"><img src="http://placehold.it/86x35" width="86" height="35" alt="Магазин Мишка"></a>
-    </div>
-    <nav class="main-nav  main-nav--closed">
-      <button class="main-nav__toggle" type="button">Открыть меню</button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list">
-          <li class="main-nav__item"><a href="#">Каталог товаров</a></li>
-          <li class="main-nav__item main-nav__item--active"><a>Вязание на заказ</a></li>
-        </ul>
-        <ul class="main-nav__user-list">
-          <li class="main-nav__user-item"><label><input class="main-nav__search-field" type="search" name="search">Поиск по сайту</label></li>
-          <li class="main-nav__user-item"><a class="main-nav__basket" href="#" title="Корзина">Корзина: пока пуста</a></li>
-        </ul>
+    <div class="page-header__wrapper">
+      <div class="page-header__logo">
+        <img src="http://placehold.it/86x35" width="86" height="35" alt="Магазин Мишка">
       </div>
-    </nav>
-  </header>
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+    </div>
+      <nav class="main-nav  main-nav--closed">
+        <ul class="main-nav__list">
+          <li class="main-nav__item  main-nav__item--active"><a href="#">Каталог товаров</a></li>
+          <li class="main-nav__item"><a>Вязание на заказ</a>
+          </li>
+          <li class="main-nav__item--search"><label><input class="main-nav__search-field" type="search" name="search">Поиск по сайту</label>
+          </li>
+          <li class="main-nav__item main-nav__item--basket"><a href="#" title="Корзина">Корзина: пока пуста</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <section class="form">
         <h1 class="form__title">Вязание на заказ</h1>
@@ -33,39 +34,39 @@
           <fieldset class="order-form__type">
             <legend class="order-form__title">Тип</legend>
             <div class="order-form__group">
-              <label for="interior">Аксессуар для интерьера</label>
               <input type="radio" name="type" id="interior" checked>
+              <label for="interior">Аксессуар для интерьера</label>
             </div>
             <div class="order-form__group">
-              <label for="toy">Аксессуар для интерьера</label>
               <input type="radio" name="type" id="toy">
+              <label for="toy">Детская игрушка</label>
             </div>
           </fieldset>
           <fieldset class="order-form__type">
             <legend class="order-form__title">Цвет</legend>
             <div class="order-form__group">
-              <label for="white">Белый</label>
               <input type="checkbox" name="color-white" id="white" checked>
+              <label for="white">Белый</label>
             </div>
             <div class="order-form__group">
-              <label for="grey">Серый</label>
               <input type="checkbox" name="color-grey" id="grey" checked>
+              <label for="grey">Серый</label>
             </div>
             <div class="order-form__group">
-              <label for="tiffany">«Тиффани»</label>
               <input type="checkbox" name="color-tiffany" id="tiffany">
+              <label for="tiffany">«Тиффани»</label>
             </div>
             <div class="order-form__group">
-              <label for="black">Черный</label>
               <input type="checkbox" name="color-black" id="black">
+              <label for="black">Черный</label>
             </div>
             <div class="order-form__group">
-              <label for="pink">Розовый</label>
               <input type="checkbox" name="color-pink" id="pink">
+              <label for="pink">Розовый</label>
             </div>
             <div class="order-form__group">
-              <label for="orange">Оранжевый</label>
               <input type="checkbox" name="color-orange" id="orange">
+              <label for="orange">Оранжевый</label>
             </div>
           </fieldset>
           <fieldset class="order-form__type">
